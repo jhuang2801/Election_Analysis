@@ -1,20 +1,21 @@
 # Election_Analysis
 
 ## 1. Overview of Election Audit: Explain the purpose of the election audit analysis
--The purpose of the election audit analysis is to read and organize data from a csv file, which containing election results by ballot ID, and each ballot ID containing both county and candiate information. Using Python, each unique ballot ID was counted once under each county and candidate name. Then we used python to print out each unique candidate name or county name with their respective number of votes and percentage of votes(out of total votes). The largest county turnout and the winning candidate (with vote count and percentage of total votes) were both captured. At the end, the results were printed both to the terminal and write to a text file.
+-The purpose of the election audit analysis is to read and organize data from a csv file, which containing election results by ballot ID, and each ballot ID containing both county and candiate information. Using Python, each unique ballot ID was counted once under each county and candidate name. Then we used python to print out each unique candidate name or county name with their respective number of votes and percentage of votes (out of total votes). The largest county turnout and the winning candidate (with vote count and percentage of total votes) were both captured. At the end, the results were printed both to the terminal and write to a text file.
 
 ## 2. Election-Audit Results: Using a bulleted list, address the following election outcomes. Use images or examples of your code as support where necessary.
 - How many votes were casted in this congressional election? 
-  - 36911 votes were counted.
+  - 369,711 votes were counted.
 - Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
   - Jefferson county has 38,855 actual votes, which accounted for 10.5% of the total votes. Denver county has 306,055 actual votes, which accounted for 82.8% of the total votes. Arapaphoe county only has 24,801 votes, which accounted for 6.7% of the total votes.
 - Which county had the largest number of votes?
   - Denver county has the largest number of votes at 306,055, which is 82.8%.
 - Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
-  - Charles Caspper Stockham has 85,213 votes, which accounted for 23.0% of total votes. Diana DeGette has 272,892 votes, which accounted for 73.8%. Raymon Anthony Doane only received 11,606 votes, which is at 3.1%.
+  - Charles Casper Stockham has 85,213 votes, which accounted for 23.0% of total votes. Diana DeGette has 272,892 votes, which accounted for 73.8%. Raymon Anthony Doane only received 11,606 votes, which is at 3.1%.
 - Which candidate won the election, what was their vote count, and what was their percentage of total votes?
   - Diana DeGette won the election with 272,892 votes, which is at 73.8%.
 ## 3. Election-Audit Summary: In a summary statement, provide a business proposal to the election commission on how this script can be used -with some modification- for any election. Give at least two examples of how this script can be modified to be used for any elections.
+- The election can be modified to basically any level from school, town, county, or even to state-level elections. The word "county" in the code would have to be modified to the appropriate name (i.e. school, town, state, etc).  In general, this code can also be served as a general template for any polls. For example, this can be modified to read results for a poll to gather people's favorite ice cream favors, and all we had to do is the modify the header in the source csv to reflect "favorite ice cream favor", gather/modify the correct column number from the header in the csv, and change within the code to reflect ice cream favor instead of county or candidate names. Secondly, data can be gathered from a year-to-year comparison. For example, it would be interesting to compare the the number of voter turnout of the current election vs the last. Or if the same candidate has appeared in the ballot for multiple years, how many votes they have receive in the current election vs the last election. 
 
 
 
@@ -29,7 +30,7 @@ A Colorado Board of Elections employee has given you the following tasks to comp
 
 ## Resources
 - Data Source: election_results.csv
-- Software: Python 3.6.1, Visual Studio Code, 1.38.1
+- Software: Python 3.7.6, Visual Studio Code, 1.72.2
 
 ## Summary
 The analysis of the election show that:
